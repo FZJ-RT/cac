@@ -1,0 +1,29 @@
+name: cac
+
+channels:
+- conda-forge
+- pytorch
+- nvidia
+
+dependencies:
+- matplotlib
+- python=3.10
+- setuptools
+- numpy
+- scikit-learn
+- time
+- scikit-image
+- pandas
+- tensorflow-gpu
+- keras<3.0.0
+- jupyter
+- notebook
+- jupyterlab
+- pytorch 
+- horovod
+- dask
+- pip
+- pip:
+  - opencv-python-headless
+  - pathlib
+
