@@ -8,3 +8,6 @@ The current version (v1.0) contains only the implementation for data-driven mach
 
 ## Getting started
 Please check INSTALLATION.txt for detailed steps for installing the library.
+
+## Contact us
+For further questions or inquiries, please contact Ryan Santoso - r.santoso@fz-juelich.de
