@@ -1,5 +1,5 @@
 # Chip Analyzer and Calculator (cac)
-An open-source Python library for applying data-driven machine learning to analyze microfluidics experiments
+An open-source Python library for applying data-driven and process-based machine learning methods to analyze microfluidics experiments
 
 ## Introduction
 'cac' provides data-driven machine learning methods for enabling an efficient and real-time analysis of microfluidics experiments. It uses [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) for the implementation of data-driven machine learning methods, and [OpenCV](https://opencv.org/) for image processing. It enables training with GPU, built on [Horovod](https://horovod.ai/). 
