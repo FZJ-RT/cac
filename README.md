@@ -14,9 +14,48 @@ Stay tuned!
 
 ## Installation
 
-Follow the steps listed underneath to install this package.
+### Manual installation
 
-1. Install [anaconda](https://docs.anaconda.com/free/anaconda/install/index.html) or [Miniforge](https://github.com/conda-forge/miniforge) (recommended) on your machine.
+#### Creation of a virtual environment
+
+It is recommended to install this package in a Python [virtual environment](https://docs.python.org/3/library/venv.html).
+This will allow you to manage the package and its dependencies separately from other Python packages on your system.
+
+
+To create a virtual environment and activate it, use the following commands:
+
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+Replace `env` with the desired name of your virtual environment.
+If you succeeded, the prompt will show now `(env) $` instead of `$`.
+To deactivate the virtual environment use the `deactivate` command.
+
+#### Installation of dependencies
+
+Install manually the requirements of the package, which vary based on if you intend to use a GPU or not.
+Consult the corresponding `yaml` file to learn about the requirements:
+
+- [requirements with GPU](https://github.com/FZJ-RT/cac/blob/main/with_gpu/environment.devenv.yml)
+- [requirements without GPU](https://github.com/FZJ-RT/cac/blob/main/no_gpu/environment.devenv.yml)
+
+#### Install the package itself
+
+To install the latest version of the package, use pip:
+
+```bash
+# Via https
+pip install git+https://github.com/FZJ-RT/cac.git
+
+# Via ssh
+pip install git+ssh://git@github.com:FZJ-RT/cac.git
+```
+
+### Installation via Anaconda or Miniforge
+
+1. Ensure [Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html) or [Miniforge](https://github.com/conda-forge/miniforge) (recommended) on your machine.
 2. Once conda environment installed, install conda-devenv: conda install conda-devenv
 3. Clone cac
 4. Go to cac folder
