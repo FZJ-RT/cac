@@ -55,16 +55,16 @@ pip install git+ssh://git@github.com:FZJ-RT/cac.git
 
 ### Installation via Anaconda or Miniforge
 
-1. Ensure [Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html) or [Miniforge](https://github.com/conda-forge/miniforge) (recommended) on your machine.
+1. Ensure [Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html) or [Miniforge](https://github.com/conda-forge/miniforge) (recommended) is installed on your machine.
 2. Once conda environment installed, install conda-devenv: conda install conda-devenv
-3. Clone cac
-4. Go to cac folder
+3. Clone this repository
+4. Go into the `cac` folder
 5. If you have GPU, go to "with_gpu" folder. If you do not have GPU, go to "no_gpu" folder
-6. Enter in your terminal: conda devenv. This process will create a new environment called (cac)
-7. Activate cac environment: conda activate cac
-8. Go back to main cac folder by writing "cd .." in your terminal
-8. Build cac library: python setup.py bdist_wheel
-9. Install build: pip install -e . (don't forget dot!!!)
+6. Enter in your terminal: `conda devenv`, which will create a new environment called (cac)
+7. Activate cac environment: `conda activate cac`
+8. Go back to the project's root folder: `cd ..`
+8. Build cac library: `python setup.py bdist_wheel`
+9. Install build: `pip install -e .` (don't forget dot!!!)
 10. Enjoy the library
 
 ## Contact us
