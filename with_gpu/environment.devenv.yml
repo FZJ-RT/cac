@@ -2,14 +2,13 @@ name: cac
 
 channels:
 - conda-forge
-- pytorch
 - nvidia
 
 dependencies:
 - matplotlib
 - python=3.10
+- SALib
 - setuptools
-- numpy
 - scikit-learn
 - time
 - scikit-image
@@ -19,11 +18,18 @@ dependencies:
 - jupyter
 - notebook
 - jupyterlab
-- pytorch 
 - horovod
 - dask
+- hpbandster 
+- ConfigSpace
+- pillow
+- cmake
+- gfortran
+- numpy=1.26.4
 - pip
 - pip:
-  - opencv-python-headless
+  - opencv-python-headless<4.8
   - pathlib
+  - meshio==5.3.5
+  - bohb-hpo
 
