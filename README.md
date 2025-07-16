@@ -4,7 +4,7 @@ An open-source Python library for applying data-driven and process-based machine
 ## Introduction
 `cac` provides data-driven and process-based machine learning methods for enabling efficient and real-time analysis of microfluidics experiments. It uses [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) for the implementation of data-driven machine learning methods, and [OpenCV](https://opencv.org/) for image processing. It enables training with GPU, built on [Horovod](https://horovod.ai/). 
 
-The process-based machine learning implementation uses [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) library. It automatically applied optimization using Bayesian Optimization with Hyperband (BOHB) algorithm from [bohb-hpo](https://github.com/goktug97/bohb-hpo.git) repository. Users can use process-based machine learning method with minimum changes.
+The process-based machine learning implementation uses [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) library. It automatically applied optimization using Bayesian Optimization with Hyperband (BOHB) algorithm from [bohb-hpo](https://github.com/goktug97/bohb-hpo.git) repository. Users can use the process-based machine learning method with minimum changes.
 
 ## Getting started
 Please check INSTALLATION.txt for detailed steps for installing the library.
