@@ -7,7 +7,7 @@ An open-source Python library for applying data-driven and process-based machine
 The process-based machine learning implementation uses [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) library. It automatically applied optimization using Bayesian Optimization with Hyperband (BOHB) algorithm from [bohb-hpo](https://github.com/goktug97/bohb-hpo.git) repository. Users can use the process-based machine learning method with minimum changes.
 
 ## Simulator for microfluidics experiments
-To provide training samples for constructing machine learning models, we frequently use Lattice-Boltzmann method. The Lattice-Boltzmann code can be donwloaded through this link: [lbm](git@github.com:FZJ-RT/lbm.git), that should be used in conjuction with `cac`. 
+To provide training samples for constructing machine learning models, we frequently use Lattice-Boltzmann method. The Lattice-Boltzmann code can be downloaded through this link: [lbm](git@github.com:FZJ-RT/lbm.git), that should be used in conjuction with `cac`. 
 
 ## Getting started
 Please check INSTALLATION.txt for detailed steps for installing the library.
