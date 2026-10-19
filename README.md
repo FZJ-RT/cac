@@ -20,6 +20,7 @@ The tutorials are located in the `examples` folder.
 | `tutorial_1` | Image segmentation of microfluidics images using U-Net | `utilities.read_single_image`<br>`utilities.read_single_label`<br>`utilities.read_images_from_folder`<br>`utilities.read_labels_from_folder`<br>`utilities.create_set`<br>`model.create_vanilla_unet`<br>`trainer.train_with_generator`<br>`trainer.calculate_image_metric`<br>`trainer.calculate_jaccard_score` |
 | `tutorial_2` | Gas phase distribution in porous media using saturation-conditioned U-Net | `model.create_tfunet`<br>`trainer.train_tfunet`<br>`trainer.calculate_image_metric_tfunet` |
 | `tutorial_3` | Non-intrusive reduced basis (NI-RB) surrogate model for a 2D spatio-temporal problem | `trainer.NIRB`<br>`NIRB.define_set`<br>`NIRB.reduce_output`<br>`NIRB.execute`<br>`model.online_nirb`<br>`online_nirb.load_existing_model`<br>`online_nirb.load_output_basis`<br>`online_nirb.load_scaling_factor`<br>`online_nirb.predict` |
+| `tutorial_4` | Image reduction using a convolutional autoencoder for user image datasets | `model.create_cae2D`<br>`trainer.train_cae2D`<br>`trainer.calculate_cae2D_metric`<br>`trainer.calculate_cae2D_jaccard`<br>`model.load_existing_cae2D` |
 
 ## Contact us
 For further questions or inquiries, please contact Ryan Santoso - r.santoso@fz-juelich.de
